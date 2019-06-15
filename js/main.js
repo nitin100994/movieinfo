@@ -19,7 +19,7 @@ $(document).ready(function () {
                     <div class="well text-center">
                         <img src="${movie.Poster}">
                         <h5>${movie.Title}</h5>
-                        <a href="https://www.imdb.com/title/${movie.imdbID}" target="_blank" class="btn btn-primary">Movie details</a>
+                        <a href="http://www.imdb.com/title/${movie.imdbID}" target="_blank" class="btn btn-primary">Movie details</a>
                     </div>
                 </div>
                 `;
